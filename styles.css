@@ -1,0 +1,375 @@
+html,
+body {
+  font-size: 62.5%;
+  background-color: #eeeff1;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+.about-me {
+  padding: 6rem 10rem;
+  background-color: #e5e5e5;
+}
+
+.wrapper {
+  font-size: 1.6rem;
+}
+
+/* /////////////////header////////////////////////// */
+
+.header {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background-color: #eeeff1;
+  padding-bottom: 14.6rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 113rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.nav__burger {
+  margin-right: 5%;
+  padding-left: 5%;
+  display: flex;
+
+  flex: 6 6 2rem;
+}
+.nav__burger img {
+  max-width: 9rem;
+}
+
+.nav__ul {
+  flex: 6 4 30rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+.links {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: Roboto;
+}
+
+.links--blue {
+  color: #34547a;
+  font-weight: 500;
+}
+
+.nav__links {
+  margin: 0 0.5rem;
+}
+
+/* ///////////////////////////////////////////////// */
+
+/* //////////////////////main//////////////////////////// */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 12rem;
+  max-width: 113rem;
+}
+
+.container__title {
+  font-size: 4.8rem;
+  margin: 0;
+}
+
+.p {
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  max-width: 54rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #727272;
+}
+.container__text {
+  margin: 6rem 0;
+}
+.container__description {
+  padding: 0 0.5rem;
+  /* margin: 0 auto; */
+
+  max-width: 52.1rem;
+  flex: 1 1 15rem;
+}
+.container__image {
+  display: flex;
+  flex: 1 1 15rem;
+  justify-content: center;
+  align-items: center;
+  width: 32.8rem;
+
+  align-items: center;
+}
+.container__image img {
+  max-width: 32.8rem;
+}
+.tittle {
+  font-weight: 500;
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 7rem 0.5rem;
+}
+
+.button {
+  background-color: #34547a;
+  color: white;
+  display: block;
+
+  font-weight: normal;
+  font-size: 1.6rem;
+  border: none;
+  width: 22.5rem;
+  height: 6.5rem;
+}
+/* ///////////////////////////////////// */
+.result {
+  width: 100vw;
+  padding: 1rem 0;
+  margin: 0 auto;
+  min-height: 25rem;
+  background-color: #34547a;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10rem;
+}
+.result__grid {
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14%;
+  grid-template-rows: 100%;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 0.5rem;
+}
+.result__wrap {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+.result__projects {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.result__projects strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 2.1rem;
+}
+
+.result__img img {
+  margin-right: 1.5rem;
+  height: 4.6rem;
+  width: 5rem;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 113rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__profile {
+  max-width: 55.5rem;
+  display: flex;
+  flex: 1 1 35rem;
+
+  justify-content: center;
+}
+
+.card__profile img {
+  width: 100%;
+}
+.card__skills {
+  margin-right: 3rem;
+  flex: 1 1 35rem;
+}
+.card__skills::before {
+  content: "Мои навыки";
+  display: block;
+  margin-bottom: 4rem;
+}
+.card {
+  font-weight: 50;
+  font-size: 3.2rem;
+}
+.card__skill {
+  color: #727272;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.card__scale {
+  width: 100%;
+  height: 0.4rem;
+
+  margin: 2rem 0;
+  display: flex;
+}
+
+.scale__full {
+  height: 0.4rem;
+  background-color: #34547a;
+  width: 70%;
+}
+
+.scale__empty {
+  height: 0.4rem;
+  background-color: #727272;
+  width: 30%;
+}
+
+.video {
+  margin: 10rem auto;
+  padding: 0 2rem;
+  max-width: 113rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video__content {
+  max-width: 100%;
+  max-height: 60rem;
+}
+
+.board {
+  width: 100vw;
+  margin: 2.8rem auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+.board__img {
+  position: relative;
+}
+.board img {
+  width: 100%;
+  height: 100%;
+}
+
+.board__img::after {
+  content: url("./assets/img/view.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #34537ac7;
+  opacity: 0;
+  z-index: 3000;
+}
+
+.board__img:hover:after {
+  opacity: 1;
+  transition: all 0.4s ease-out;
+}
+
+.form {
+  margin: 10rem auto;
+  margin-top: 0;
+  max-width: 54rem;
+  padding: 0 2rem;
+}
+.form__input-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form__input {
+  font-size: 1.4rem;
+  color: #5f5d5d;
+  padding-left: 1.7rem;
+  border: none;
+  margin: 1rem auto;
+  height: 5rem;
+  width: 25.5rem;
+  flex: 1 1 20rem;
+}
+.form__input:first-child {
+  margin-right: 3rem;
+}
+
+.form__textarea {
+  margin: 1rem auto;
+  padding-top: 1.7rem;
+  display: block;
+  width: 96%;
+  height: 17.5rem;
+  margin-left: 0;
+}
+
+.form__button {
+  display: block;
+  margin: 5rem auto;
+}
+
+.form__input:focus {
+  border: 1 px solid #34547a;
+}
+
+/* //////////footer///////////////////// */
+footer {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #34547a;
+  color: white;
+}
+.footer__wrap {
+  min-height: 15rem;
+  padding: 0 2.5rem;
+
+  margin: 0 auto;
+  max-width: 113rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__autor {
+  margin: 5rem 0;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.footer__autor::after {
+  content: "2021 (с) Все права защищены";
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.footer__links img {
+  width: 4.4rem;
+  height: 2.3rem;
+}
+.footer__links a {
+  margin-left: 2rem;
+}
+
+.footer__links a:first-child {
+  margin-left: 0;
+}
